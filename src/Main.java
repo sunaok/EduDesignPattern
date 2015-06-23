@@ -25,7 +25,5 @@ public class Main {
         Icecream ice = new GreenTeaIcecream();
         Icecream ice2 = new CashewNutsToppingIcecream(ice);
         System.out.println(ice2.getName());
-
-
     }
 }
