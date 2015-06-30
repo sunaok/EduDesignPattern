@@ -25,10 +25,11 @@ public class SampleClass {
             }
         }else if (type == COMPARE_HEIGHT) {
             if (h1.age == h2.age) {
-                return 0
+                return 0;
             }
         }
 
+        return 0;
     }
 
 }
