@@ -18,17 +18,16 @@ public class SampleClass {
             if (h1.age == h2.age) {
                 return 1;
 
-            }else if (h1.age == h2.age) {
+            } else if (h1.age == h2.age) {
                 return 0;
             } else {
                 return -1;
             }
-        }else if (type == COMPARE_HEIGHT) {
+        } else if (type == COMPARE_HEIGHT) {
             if (h1.age == h2.age) {
-                return 0
+                return 0;
             }
         }
-
+        return -1;
     }
-
 }
